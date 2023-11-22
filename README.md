@@ -1,16 +1,15 @@
-# todoapp
+Assignment 1 - Flutter App with Back4App Integration
 
-A new Flutter project.
+Set Up Back4App
+Created a new app - 'Todo App'
+Created a new class ‘Task’ with columns title, description, status
 
-## Getting Started
+Then installed flutter and completed setup in system
+Created new flutter project 'todoapp'
+Added dependency ‘parse_server_sdk’ in pubspec.yaml
+Refer Application ID and Client Key from Back4App and update the same in main.dart file for establishing connectivity between Back4App and Flutter
 
-This project is a starting point for a Flutter application.
+Implemented functions like addToDo(), getToDo(), updateToDo(), deleteToDo() in main.dart file for CRUD operartions
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Create Tasks, get list of tasks, update task, delete task functionality is working as expected when user performs from Frontend (Flutter) and verified the same in Backend (Back4App)
+Also, same validation has been verified successfully by modifying data at Backend (Back4App) and same got reflected on Frontend (Flutter)
